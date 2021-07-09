@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <head>
+        <title>Form Validation</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Form">
+        <meta name="author" content="Rebecca Solomon">
+        <!-- stylesheet-->
+        <link rel="stylesheet" href="css/style.css" />
+
+    </head>
+
+</head>
+
+<body>
+
+    <h2>Form Assignment</h2>
+
+    <div class="container">
+        <form id="contact" class="form-container" method="GET">
+            <div class="field">
+                <div class="titles">
+                    <label for="fname">Full Name</label>
+                </div>
+                <div class="inputfield">
+                    <input type="text" id="fname" name="firstname" placeholder="Your full name">
+                </div>
+            </div>
+            <div class="field">
+                <div class="titles">
+                    <label for="email">Email</label>
+                </div>
+                <div class="inputfield">
+                    <input type="text" id="email" name="email" placeholder="Enter your email ID here">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="titles">
+                    <label for="subject">Message</label>
+                </div>
+                <div class="inputfield">
+                    <textarea id="subject" name="subject" placeholder="Write a message" style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="field">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+        
+        <script src="js/main.js"></script>
+    </div>
+
+</body>
+
+</html>
